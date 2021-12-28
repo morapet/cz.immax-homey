@@ -1,0 +1,46 @@
+{
+  "triggers": [
+    {
+      "id": "on",
+      "title": {
+        "en": "On button was pressed",
+        "nl": "Aan knop is ingedrukt"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off button was pressed",
+        "nl": "Uit knop is ingedrukt"
+      }
+    },
+    {
+      "id": "dim_down",
+      "title": {
+        "en": "Lower brightness was pressed",
+        "nl": "Lagere helderheid is ingedrukt"
+      }
+    },
+    {
+      "id": "dim_up",
+      "title": {
+        "en": "Higher brightness was pressed",
+        "nl": "Hogere helderheid is ingedrukt"
+      }
+    },
+    {
+      "id": "dim_down_long_press",
+      "title": {
+        "en": "Lower brightness was long pressed",
+        "nl": "Lagere helderheid is lang ingedrukt"
+      }
+    },
+    {
+      "id": "dim_up_long_press",
+      "title": {
+        "en": "Higher brightness was long pressed",
+        "nl": "Hogere helderheid is lang ingedrukt"
+      }
+    }
+  ]
+}

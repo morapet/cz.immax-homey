@@ -1,0 +1,53 @@
+{
+  "name": {
+    "en": "neo"
+  },
+  "class": "remote",
+  "capabilities": [
+    "onoff",
+    "dim",
+    "alarm_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AAA"
+    ]
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "pair" : [
+    {
+    "id" : "list_devices", 
+    "template" : "list_devices",
+    "navigation" : 
+    {
+      "next" : "add_devices"
+    }
+    },
+    {
+      "id" : "add_devices",
+      "template" : "add_devices"
+    }
+  ],
+  "zigbee": {
+    "manufacturerName": "Immax",
+    "productId": ["IM-Z30-Remote"],
+    "endpoints": {
+      "1": {
+        "profile_id": 260,
+        "device_type": "0x0810",
+        "clusters": [0, 3, 4, 5, 6, 8, 25, 768, 4096],
+        "bindings": [6]
+      }
+    }
+  }
+}
